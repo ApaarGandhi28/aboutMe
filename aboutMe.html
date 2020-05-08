@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="myStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="myScript.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-6" id="leftDiv" >
+                <img src="me.jpg" title="Apaar"class="rounded-circle mx-auto d-block" id="profilePic">
+             <div class="container text-center" id="textName">
+                 <b>Apaar Gandhi</b><br>
+                 <!-- <b>Hey Welcome to my Webpage. </b> -->
+             </div>
+             <div class="container text-center">
+             <button type="button" id="btnFollow" class ="btn btn-outline-info ">Follow</button>
+             </div>
+             <ul id="Iconsdiv" class="wrapper">
+                 <a href="https://www.facebook.com/apaar.gandhi" ><i class="fa fa-3x fa-facebook-square"></i></a>
+                 <a href="https://www.instagram.com/apaar_2804" ><i class="fa fa-3x fa-instagram"></i></a>
+                 <a href="https://twitter.com/GandhiApaar28" ><i class="fa fa-3x fa-twitter-square"></i></a>
+                 <a href="https://www.linkedin.com/in/apaar-gandhi-7906251a0" ><i class="fa fa-3x fa-linkedin"></i></a>
+                 <a href="#" ><i class="fa fa-3x fa-github"></i></a>
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="col-sm-6" id="rightDiv">
+             <ul class="nav nav-pills justify-content-end " role="tablist">
+                 <li class="nav-item" >
+                     <a href="#home" id="nav1" class="nav-link active" data-toggle="pill">Home</a>
+                 </li>
+                 <li class="nav-item" >
+                    <a href="#skills" id="nav2" class="nav-link " data-toggle="pill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" id="nav3" class="nav-link " data-toggle="pill">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contactMe" id="nav4" class="nav-link " data-toggle="pill">Contact Me</a>
+                </li>
+             </ul>
+             <div class="tab-content">
+                 <div class="container tab-pane active" id="home">
+                     <br>
+                     <h2 class="h2 text-center text-white">Hey! Welcome to my page.</h3>
+                     <br><br><br>
+                     <p id="infoP"><strong>I am a 2nd year Student persuing B.Tech in Information Technology from Maharaja Agrasen Insitute Of Technology. I am a Web Designer, Developer proficient in HTML, CSS, and JavaScript and a passionate Programmer.<br>
+                    <br>I am a keen learner who is always willing to learn new technologies.I am always lokking for new opporunities to learn new technologies.</strong></p>
+                 </div>
+                 <div class="container tab-pane" id="skills">
+                    <br>
+                    <h2 class="h2 text-center text-warning">My Skills</h3>
+                    <br><br>
+                    <ul class="skillList text-info">
+                        <li><h4 class="h4">Java Programming</h4></li>
+                        <li><h4 class="h4">C++ programming</h4></li>
+                        <li><h4 class="h4">HTML</h4></li>
+                        <li><h4 class="h4">CSS</h4></li>
+                        <li><h4 class="h4">Javascript</h4></li>
+                        <li><h4 class="h4">jQuery</h4></li>
+                        <li><h4 class="h4">Bootstrap</h4></li>
+                    </ul>
+                </div>
+                <div class="container tab-pane" id="projects">
+                <br>
+                <h2 class="h2 text-center text-primary">My Projects</h2>
+                <div class="card-deck">
+                    <div class="card cardA" style="height: 225px; width:225px">
+                      <div class="card-body text-center" >
+                        <img src="wallP1.jpg" title="Project To be Made" class="img-thumbnail mx-auto d-block imgPro"> 
+                        <div class="container bg-white">
+                        <b>Project 1</b>  </div>
+                    </div>
+                    </div>
+                    <div class="card cardA " style="height: 225px; width:225px;">
+                        <div class="card-body text-center" >
+                            <img src="wallP2.jpg" title="Project To be Made" class="img-thumbnail mx-auto d-block imgPro"> 
+                            <div class="container bg-white"> 
+                            <b>Project 2</b>  </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="card-deck">
+                    <div class="card cardA" style="height: 225px; width:225px">
+                      <div class="card-body text-center" >
+                        <img src="wallP1.jpg" title="Project To be Made" class="img-thumbnail mx-auto d-block imgPro"> 
+                        <div class="container bg-white">
+                        <b>Project 3</b>  </div>
+                    </div>
+                    </div>
+                    <div class="card cardA" style="height: 225px; width:225px;">
+                        <div class="card-body text-center" >
+                            <img src="wallP2.jpg" title="Project To be Made" class="img-thumbnail mx-auto d-block imgPro"> 
+                            <div class="container bg-white"> 
+                            <b>Project 4</b>  </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container tab-pane " id="contactMe">
+                <br>
+                <div class="container my-3 p-3 " id="contactDiv1" style="border:1px solid whitesmoke; text-align:center ">
+                <h2 class="h2" id="conH2" style="color:aliceblue">Contact Me</h2>
+                </div> 
+                <br><br>
+                <p class="contactP" style="font-size: 25px;font-weight: bolder; color: azure;">Email : apaaryo28@gmail.com</p><br>
+                <p class="contactP" style="font-size: 25px;font-weight: bolder; color: azure;">Contact Number : 9958673795</p><br>
+                <p class="contactP" style="font-size: 25px;font-weight: bolder; color: azure;">Address : WZ-1020/A, Rani Bagh, Delhi-34</p>
+             </div>
+             </div>
+            </div>
+        </div>
+    </body>
+</html>

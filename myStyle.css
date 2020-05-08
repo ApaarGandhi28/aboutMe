@@ -1,0 +1,87 @@
+html {
+    overflow-y: scroll; 
+  }
+#leftDiv{
+    background-image: url(wallP.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#profilePic{
+    position: relative; 
+     top: 150px; 
+    margin-top : 20px;
+    height : 175px;
+    width : 175px;
+}
+#textName{
+    background-color: snow;
+    color: black;
+    height: 30px;
+    position: relative;
+    width : 40%;
+    text-align: center;
+    top : 150px;
+}
+#btnFollow{
+    position: relative;
+    top : 160px;
+}
+#Iconsdiv{
+  position: relative;
+  left : -10px;
+  top:150px;
+  visibility: hidden;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+  }
+  
+  .wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+  }
+  .wrapper a:nth-child(1) {
+    color: #4867AA;
+  }
+  .wrapper a:nth-child(2) {
+    color: #fb3958
+  }
+  .wrapper a:nth-child(3) {
+    color: #1DA1F2;
+  }
+  .wrapper a:nth-child(4) {
+     color :  #2867B2;
+  }
+  .wrapper a:nth-child(5) {
+    color: #211F1F;
+  }
+  .wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  }
+#rightDiv{
+  background-image: url(newWall3.jpg);
+  background-repeat : no-repeat;
+  background-size: 100% 100%;
+}
+#infoP{
+  color: whitesmoke;
+}
+.imgPro{
+/* position: relative; */
+height: 175px;
+width: 175px;
+}
+.projectP{
+  position: relative;
+  left: 75px;
+  font-size:20px ;
+  font-weight: bold;
+}
+.CardA{
+  background-color: rgb(240, 173, 148);
+}
